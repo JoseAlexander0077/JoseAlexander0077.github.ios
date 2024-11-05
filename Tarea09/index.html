@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PerúBus</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="IMG/icon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="IMG/PeruBus.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Galería</a></li>
+                <li><a href="#">Nuestros Servicios</a></li>
+                <li><a href="#">Horarios</a></li>
+                <li><a href="#">Contáctenos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="contenido">
+            
+            <div class="info">
+                <h2>Información de Contacto</h2>
+                <table>
+                    <tr>
+                        <td>Dirección:</td>
+                        <td>Av. Globo Terráqueo 7131, Lima, Perú. Jirón Neptuno 123 Urbanización Sol de Oro Los Olivos</td>
+                    </tr>
+                    <tr>
+                        <td>Teléfonos:</td>
+                        <td>51 997 577 479 | 998 978 434</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>ventas@transportescarmelo.com</td>
+                    </tr>
+                </table>
+                <h2>Horario de atención</h2>
+                <p>Area de ventas: <br> Lunes a Viernes de 8 am a 6 pm.</p>
+            </div>
+
+            
+            <div class="form">
+                <h2>Escríbenos</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre y Apellido</label>
+                    <input type="text"name="nombre" required>
+
+                    <label for="celular">Celular</label>
+                    <input type="tel" name="celular" required pattern="[0-9]{9}">
+
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" name="email" required>
+
+                    <label for="ruc">RUC (Opcional)</label>
+                    <input type="text" name="ruc">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" required placeholder="Detalla tu requerimiento a continuación tal como punto de inicio y fin, tipo de unidad # de personas a trasladar, fecha y hora del servicio."></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <div class="map">
+                <h2>Ubicación</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15610.552759802691!2d-77.08133142975713!3d-11.999518395645131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf925235d2ed%3A0x7a9289e569894d77!2sSede%20Globo%20Terr%C3%A1queo%20-%20Ministerio%20P%C3%BAblico%20de%20Lima%20Norte!5e0!3m2!1ses-419!2spe!4v1730423972513!5m2!1ses-419!2spe" width="350" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <table class="tabla uno">
+            <tr>
+                <td><img src="IMG/PeruBus.png" alt="Logo PerúBus" ></td>
+            </tr>
+            <tr>
+                <td>Av. México 333 - La Victoria, Lima</td>
+            </tr>
+            <tr>
+                <td>(01) 205 - 2370</td>
+            </tr>
+            <tr>
+                <td>operadores@perubus.com.pe</td>
+            </tr>
+            <tr>
+                <td>Perúbus Movil</td>
+            </tr>
+        </table>
+        <table class="tabla dos">
+            <tr>
+                <th>Empresa</th>
+            </tr>
+            <tr><td><a href="#">Nosotros</a></td></tr>
+            <tr><td><a href="#">Terminales</a></td></tr>
+            <tr><td><a href="#">Puntos de venta</a></td></tr>
+            <tr><td><a href="#">Servicios</a></td></tr>
+            <tr><td><a href="#">Contáctanos</a></td></tr>
+        </table>
+        <table class="tabla tres">
+            <tr>
+                <th>Carga</th>
+            </tr>
+            <tr><td><a href="#">Servicios de carga</a></td></tr>
+            <tr><td><a href="#">Rastreo de carga</a></td></tr>
+            <tr><td><a href="#">Cotizaciones</a></td></tr>
+            <tr><td><a href="#">Rutas de carga</a></td></tr>
+            <tr><td><a href="#">Condiciones de traslado</a></td></tr>
+        </table>
+        <table class="tabla cuatro">
+            <tr>
+                <th>Corporativos</th>
+            </tr>
+            <tr><td><a href="#">Volverse un agente PerúBus</a></td></tr>
+            <tr><td><a href="#">Alquiler de buses</a></td></tr>
+            <tr><td><a href="#">Publicidad en buses</a></td></tr>
+            <tr><td><a href="#">Trabajar con PerúBus</a></td></tr>
